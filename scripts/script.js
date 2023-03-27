@@ -83,3 +83,12 @@ function squarelist() {
 
 
 squarelist();
+
+function updateImage()
+{
+    const image = document.querySelector("#shoppingCart");
+    image.setAttribute("src", 'https://cdn-icons-png.flaticon.com/512/263/263142.png');
+    image.setAttribute("alt", 'shopping cart')
+    image.setAttribute("height", 100)
+}
+updateImage();
